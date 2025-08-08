@@ -1,0 +1,103 @@
+body {
+  background: #f4f6f8;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.todo-app {
+  background: #fff;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.todo-app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+input:focus {
+  border-color: #42b983;
+  box-shadow: 0 0 4px rgba(66, 185, 131, 0.4);
+}
+
+button {
+  border: none;
+  background-color: #42b983;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+button:hover {
+  background-color: #369f6b;
+}
+button:active {
+  transform: scale(0.95);
+}
+
+.material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+thead {
+  background-color: #42b983;
+  color: white;
+}
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+}
+.delete-btn:hover {
+  background-color: #e64040;
+}
+
+.no-data {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+}
