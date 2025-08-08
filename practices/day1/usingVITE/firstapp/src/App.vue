@@ -1,11 +1,17 @@
 <script setup>
-import MyComponent from './components/MyComponent.vue';
-import HelloWorld from './components/HelloWorld.vue'
+// import MyComponent from './components/MyComponent.vue';
+// import HelloWorld from './components/HelloWorld.vue';
+// import CompForOptionApi from './components/CompForOptionApi.vue';
+import CompForCompositionApi from './components/CompForCompositionApi.vue';
+
+
 </script>
 
 <template>
-  <MyComponent myProp="This is my prop value from the parent"/>
-  <HelloWorld msg="Hello, World!" />
+  <!-- <CompForOptionApi /> -->
+  <CompForCompositionApi />
+  <!-- <MyComponent myProp="This is my prop value from the parent"/>
+  <HelloWorld msg="Hello, World!" /> -->
 </template>
 
 <!-- <style scoped>
