@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+// import HelloWorld from './components/HelloWorld.vue';
+import InterpolateTexts from './components/InterpolateTexts.vue';
 </script>
 <template>
-  <HelloWorld msg="Hello, World!" />
-  <ByeWorld/>
+  <!-- <HelloWorld msg="Hello, World!" /> -->
+  <!-- <ByeWorld/> -->
+  <InterpolateTexts/>
 </template>
 <style scoped></style>
 
