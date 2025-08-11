@@ -73,6 +73,7 @@ const addStudent = () => {
     name: '',
     class: '',
     address: '',
+    
     mark: ''
   }
 }
