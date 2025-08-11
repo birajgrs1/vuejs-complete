@@ -3,7 +3,9 @@
 // import ReactivityWithReactive from './components/ReactivityWithReactive.vue';
 // import ReactivityWithRef from './components/ReactivityWithRef.vue'; 
 // import ReactivityUtils from './components/ReactivityUtils.vue';
-import MethodAndComputedProps from './components/MethodAndComputedProps.vue';
+// import MethodAndComputedProps from './components/MethodAndComputedProps.vue';
+import CssAndClassBinding from './components/CssAndClassBinding.vue';
+
 
 </script>
 <template>
@@ -12,7 +14,8 @@ import MethodAndComputedProps from './components/MethodAndComputedProps.vue';
     <!--  <ReactivityWithReactive /> -->
     <!-- <ReactivityWithRef /> -->
     <!-- <ReactivityUtils /> -->
-    <MethodAndComputedProps />
+    <!-- <MethodAndComputedProps /> -->
+    <CssAndClassBinding />
 
   </div>
 </template>
