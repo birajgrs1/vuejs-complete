@@ -4,7 +4,8 @@
 // import ReactivityWithRef from './components/ReactivityWithRef.vue'; 
 // import ReactivityUtils from './components/ReactivityUtils.vue';
 // import MethodAndComputedProps from './components/MethodAndComputedProps.vue';
-import CssAndClassBinding from './components/CssAndClassBinding.vue';
+// import CssAndClassBinding from './components/CssAndClassBinding.vue';
+import AllDirectivesExamples from './components/AllDirectivesExamples.vue';
 
 
 </script>
@@ -15,7 +16,9 @@ import CssAndClassBinding from './components/CssAndClassBinding.vue';
     <!-- <ReactivityWithRef /> -->
     <!-- <ReactivityUtils /> -->
     <!-- <MethodAndComputedProps /> -->
-    <CssAndClassBinding />
+    <!-- <CssAndClassBinding /> -->
+
+    <AllDirectivesExamples />
 
   </div>
 </template>
