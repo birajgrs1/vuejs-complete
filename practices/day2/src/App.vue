@@ -1,9 +1,12 @@
 <script setup>
-import AttributeBindingDemo from './components/AttributeBindingDemo.vue';
+// import AttributeBindingDemo from './components/AttributeBindingDemo.vue';
+import ReactivityWithReactive from './components/ReactivityWithReactive.vue';
 </script>
 <template>
   <div class="app">
-    <AttributeBindingDemo />
+    <!-- <AttributeBindingDemo /> -->
+    <ReactivityWithReactive />
+
   </div>
 </template>
 
