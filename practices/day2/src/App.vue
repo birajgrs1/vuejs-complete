@@ -2,7 +2,8 @@
 // import AttributeBindingDemo from './components/AttributeBindingDemo.vue';
 // import ReactivityWithReactive from './components/ReactivityWithReactive.vue';
 // import ReactivityWithRef from './components/ReactivityWithRef.vue'; 
-import ReactivityUtils from './components/ReactivityUtils.vue';
+// import ReactivityUtils from './components/ReactivityUtils.vue';
+import MethodAndComputedProps from './components/MethodAndComputedProps.vue';
 
 </script>
 <template>
@@ -10,7 +11,8 @@ import ReactivityUtils from './components/ReactivityUtils.vue';
     <!--  <AttributeBindingDemo />  -->
     <!--  <ReactivityWithReactive /> -->
     <!-- <ReactivityWithRef /> -->
-    <ReactivityUtils />
+    <!-- <ReactivityUtils /> -->
+    <MethodAndComputedProps />
 
   </div>
 </template>
@@ -18,7 +20,7 @@ import ReactivityUtils from './components/ReactivityUtils.vue';
 <style scoped>
 .app {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 36px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
