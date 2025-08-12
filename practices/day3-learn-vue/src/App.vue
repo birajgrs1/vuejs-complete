@@ -1,12 +1,17 @@
 <script setup>
 // import ListRenderingDemo from './components/ListRenderingDemo.vue';
-import ConditionalRendering from './components/ConditionalRendering.vue';
+// import ConditionalRendering from './components/ConditionalRendering.vue';
+// import EventHandling from './components/EventHandling.vue';
+import EventModifiersDemo from './components/EventModifiersDemo.vue';
 </script>
 
 <template>
   <div id="app">
     <!-- <ListRenderingDemo/> -->
-    <ConditionalRendering />
+    <!-- <ConditionalRendering /> -->
+    <!-- <EventHandling /> -->
+     <EventModifiersDemo/>
+
   </div>
 </template>
 
