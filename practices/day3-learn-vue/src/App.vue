@@ -2,7 +2,9 @@
 // import ListRenderingDemo from './components/ListRenderingDemo.vue';
 // import ConditionalRendering from './components/ConditionalRendering.vue';
 // import EventHandling from './components/EventHandling.vue';
-import EventModifiersDemo from './components/EventModifiersDemo.vue';
+// import EventModifiersDemo from './components/EventModifiersDemo.vue';
+import FormHandling from './components/FormHandling.vue';
+
 </script>
 
 <template>
@@ -10,7 +12,8 @@ import EventModifiersDemo from './components/EventModifiersDemo.vue';
     <!-- <ListRenderingDemo/> -->
     <!-- <ConditionalRendering /> -->
     <!-- <EventHandling /> -->
-     <EventModifiersDemo/>
+     <!-- <EventModifiersDemo/> -->
+      <FormHandling/>
 
   </div>
 </template>
