@@ -63,7 +63,7 @@ const handleClick = () => {
       </slot>
     </header>
 
-    <div v-if="image" class="card-image-container">
+    <div v-if="image" class="card-image-container" height>
       <img :src="image" :alt="altText" class="card-image" />
     </div>
 
@@ -145,13 +145,21 @@ const handleClick = () => {
   width: 100%;
   overflow: hidden;
 }
+.card-image {
+  height: 100px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
 
+/* 
 .card-image {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s ease;
-}
+} */
 
 .clickable:hover .card-image {
   transform: scale(1.03);

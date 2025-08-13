@@ -42,7 +42,7 @@ const handleViewDetails = () => {
     </template>
 
     <div class="product-price">
-      {{ product.price }} USD
+     $ {{ product.price }} 
       <span v-if="product.oldPrice" class="old-price">{{ product.oldPrice }} USD</span>
     </div>
 
