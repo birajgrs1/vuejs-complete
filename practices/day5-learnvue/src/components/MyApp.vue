@@ -11,19 +11,17 @@ watch(heartRate, (newValue) => {
   }
 });
 
-// Function to increase heart rate
 const increaseHeartRate = () => {
   if (heartRate.value >= 200) {
-    heartRate.value = 200; // Limiting the max heart rate for safety
+    heartRate.value = 200;
   } else {
     heartRate.value += 10;
   }
 };
 
-// Function to decrease heart rate
 const decreaseHeartRate = () => {
   if (heartRate.value <= 0) {
-    heartRate.value = 0; // Prevent heart rate from going below 0
+    heartRate.value = 0;
   } else {
     heartRate.value -= 10;
   }
@@ -34,17 +32,14 @@ const decreaseHeartRate = () => {
   <div class="myapp">
     <h2>Heart Rate Tracking System</h2>
 
-    <!-- Display the current heart rate or a message when it's zero/negative -->
     <p v-if="heartRate > 0">Heart Rate: {{ heartRate }} bpm</p>
     <p v-else>No heart rate data available | Died</p>
 
-    <!-- Action buttons to increase or decrease heart rate -->
     <div class="controls">
       <button @click="increaseHeartRate">Increase Heart Rate</button>
       <button @click="decreaseHeartRate">Decrease Heart Rate</button>
     </div>
 
-    <!-- Visual representation of heart rate -->
     <div v-if="heartRate > 0" class="heart-rate-bar" :style="{ width: heartRate + '%' }"></div>
   </div>
 </template>
